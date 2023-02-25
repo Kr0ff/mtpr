@@ -1,0 +1,36 @@
+{
+  "impacket": {
+    "name": "impacket",
+    "url": "https://github.com/fortra/impacket",
+    "location": "$LOCATION",
+    "git": true
+  },
+
+  "WinMalDev": {
+     "name": "WinMalDev",
+     "url": "https://github.com/Kr0ff/WinMalDev",
+     "location": "$LOCATION",
+     "git": true
+  },
+
+  "pysho": {
+     "name": "pysho",
+     "url":"https://github.com/Kr0ff/pysho",
+     "location": "$LOCATION",
+     "git": true
+  },
+
+  "PenDock": {
+    "name": "PenDock",
+    "url": "https://github.com/Kr0ff/PenDock",
+    "location": "$LOCATION",
+    "git": true
+  },
+  
+  "InternetShell": {
+    "name": "InternetShell",
+    "url": "https://github.com/Kr0ff/InternetShell",
+    "location": "$LOCATION",
+    "git": true
+  }
+}
