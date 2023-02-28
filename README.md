@@ -26,3 +26,17 @@ The format of a JSON file is:
 }
 
 ```
+
+The above JSON format can be created automatically with the `package-builder.py` file. Just provide the arguments and copy/paste the output to the JSON package file you're building.
+
+```sh
+./package-builder.py -n impacket -u "https://github.com/fortra/impacket" -l "/home/$USER/git" -g
+{
+    "impacket": {
+        "name": "impacket",
+        "url": "https://github.com/fortra/impacket",
+        "location": "/home/$USER/git",
+        "git": true
+    }
+}
+```
