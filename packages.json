@@ -484,5 +484,17 @@
     "url": "https://github.com/Kr0ff/InternetShell",
     "location": "/home/$USER/git/",
     "git": true
+  },
+  "DFSCoerce": {
+    "name": "DFSCoerce",
+    "url": "https://github.com/Wh04m1001/DFSCoerce",
+    "location": "/home/$USER/git/",
+    "git": true
+  }
+  "PetitPotam": {
+    "name": "PetitPotam",
+    "url": "https://github.com/topotam/PetitPotam",
+    "location": "/home/$USER/git/",
+    "git": true
   }
 }
