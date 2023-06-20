@@ -491,10 +491,10 @@
     "location": "/home/$USER/git/",
     "git": true
   },
-  "PetitPotam": {
-    "name": "PetitPotam",
-    "url": "https://github.com/topotam/PetitPotam",
-    "location": "/home/$USER/git/",
-    "git": true
+  "KeyTabExtract": {
+     "name": "KeyTabExtract",
+     "url": "https://github.com/sosdave/KeyTabExtract",
+     "location": "/home/$USER/git/",
+     "git": true
   }
 }
