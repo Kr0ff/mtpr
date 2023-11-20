@@ -30,7 +30,7 @@ The format of a JSON file is:
 The above JSON format can be created automatically with the `package-builder.py` file. Just provide the arguments and copy/paste the output to the JSON package file you're building.
 
 ```sh
-./package-builder.py -n impacket -u "https://github.com/fortra/impacket" -l "/home/$USER/git" -g
+./package-builder.py -n impacket -u "https://github.com/fortra/impacket" -l "/home/$USER/git/" -g
 {
     "impacket": {
         "name": "impacket",
@@ -40,3 +40,4 @@ The above JSON format can be created automatically with the `package-builder.py`
     }
 }
 ```
+> NOTE: An ending / is required for the folder where the packages will be cloned, otherwise and error will be thrown and repository won't be cloned.
