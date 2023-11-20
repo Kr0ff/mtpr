@@ -32,7 +32,7 @@
   "PowerSharpPack": {
         "name": "PowerSharpPack",
         "url": "https://github.com/S3cur3Th1sSh1t/PowerSharpPack",
-        "location": "/home/$USER/git",
+        "location": "/home/$USER/git/",
         "git": true
    },
   "PowerSploit": {
@@ -496,5 +496,11 @@
      "url": "https://github.com/sosdave/KeyTabExtract",
      "location": "/home/$USER/git/",
      "git": true
+  }
+  "nanodump": {
+        "name": "nanodump",
+        "url": "https://github.com/fortra/nanodump",
+        "location": "/home/$USER/git/",
+        "git": true
   }
 }
