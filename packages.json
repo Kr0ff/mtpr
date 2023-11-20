@@ -502,5 +502,11 @@
         "url": "https://github.com/fortra/nanodump",
         "location": "/home/$USER/git/",
         "git": true
-  }
+  },
+  "Havoc": {
+        "name": "Havoc",
+        "url": "https://github.com/HavocFramework/Havoc.git",
+        "location": "/home/$USER/git/",
+        "git": true
+    }
 }
