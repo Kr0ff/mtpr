@@ -496,7 +496,7 @@
      "url": "https://github.com/sosdave/KeyTabExtract",
      "location": "/home/$USER/git/",
      "git": true
-  }
+  },
   "nanodump": {
         "name": "nanodump",
         "url": "https://github.com/fortra/nanodump",
