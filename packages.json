@@ -3,510 +3,595 @@
     "name": "impacket",
     "url": "https://github.com/fortra/impacket",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "metasploit-framework": {
     "name": "metasploit-framework",
     "url": "https://github.com/rapid7/metasploit-framework",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "c2"
   },
   "PEASS-ng": {
     "name": "PEASS-ng",
     "url": "https://github.com/carlospolop/PEASS-ng",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "privesc"
   },
   "masscan": {
     "name": "masscan",
     "url": "https://github.com/robertdavidgraham/masscan",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category":"recon"
   },
   "trufflehog": {
     "name": "trufflehog",
     "url": "https://github.com/trufflesecurity/trufflehog",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "code-audit"
   },
   "PowerSharpPack": {
         "name": "PowerSharpPack",
         "url": "https://github.com/S3cur3Th1sSh1t/PowerSharpPack",
         "location": "/home/$USER/git/",
-        "git": true
+        "git": true,
+	"category": "post-ex"
    },
   "PowerSploit": {
     "name": "PowerSploit",
     "url": "https://github.com/PowerShellMafia/PowerSploit",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "RustScan": {
     "name": "RustScan",
     "url": "https://github.com/RustScan/RustScan",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "recon"
   },
   "spiderfoot": {
     "name": "spiderfoot",
     "url": "https://github.com/smicallef/spiderfoot",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "osint"
   },
   "Amass": {
     "name": "Amass",
     "url": "https://github.com/OWASP/Amass",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "osint"
   },
   "ffuf": {
     "name": "ffuf",
     "url": "https://github.com/ffuf/ffuf",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "web"
   },
   "gophish": {
     "name": "gophish",
     "url": "https://github.com/gophish/gophish",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "phishing"
   },
   "theHarverster": {
     "name": "theHarverster",
     "url": "https://github.com/laramies/theHarvester",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "osint"
   },
   "LaZagne": {
     "name": "LaZagne",
     "url": "https://github.com/AlessandroZ/LaZagne",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "BloodHound": {
     "name": "BloodHound",
     "url": "https://github.com/BloodHoundAD/BloodHound",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "john": {
     "name": "john",
     "url": "https://github.com/openwall/john",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "cracking"
   },
   "trape": {
     "name": "trape",
     "url": "https://github.com/jofpin/trape",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "osint"
   },
   "gobuster": {
     "name": "gobuster",
     "url": "https://github.com/OJ/gobuster",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "recon"
   },
   "CrackMapExec": {
     "name": "CrackMapExec",
     "url": "https://github.com/Porchetta-Industries/CrackMapExec",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "evilginx2": {
     "name": "evilginx2",
     "url": "https://github.com/kgretzky/evilginx2",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "phishing"
   },
   "sliver": {
     "name": "sliver",
     "url": "https://github.com/BishopFox/sliver",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "c2"
   },
   "ScoutSuite": {
     "name": "ScoutSuite",
     "url": "https://github.com/nccgroup/ScoutSuite",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "cloud"
   },
   "UACME": {
     "name": "UACME",
     "url": "https://github.com/hfiref0x/UACME",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "wfuzz": {
     "name": "wfuzz",
     "url": "https://github.com/xmendez/wfuzz",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "recon"
   },
   "Responder": {
     "name": "Responder",
     "url": "https://github.com/lgandx/Responder",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "jwt_tool": {
     "name": "jwt_tool",
     "url": "https://github.com/ticarpi/jwt_tool",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "web"
   },
   "pspy": {
     "name": "pspy",
     "url": "https://github.com/DominicBreuker/pspy",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "PRET": {
     "name": "PRET",
     "url": "https://github.com/RUB-NDS/PRET",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "exploitation"
   },
   "evil-winrm": {
     "name": "evil-winrm",
     "url": "https://github.com/Hackplayers/evil-winrm",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "pacu": {
     "name": "pacu",
     "url": "https://github.com/RhinoSecurityLabs/pacu",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "cloud"
   },
   "Empire": {
     "name": "Empire",
     "url": "https://github.com/BC-SECURITY/Empire",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "c2"
   },
   "h8mail": {
     "name": "h8mail",
     "url": "https://github.com/khast3x/h8mail",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "osint"
   },
   "Rubeus": {
     "name": "Rubeus",
     "url": "https://github.com/GhostPack/Rubeus",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "ThreatMapper": {
     "name": "ThreatMapper",
     "url": "https://github.com/deepfence/ThreatMapper",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "cloud"
   },
   "Seatbelt": {
     "name": "Seatbelt",
     "url": "https://github.com/GhostPack/Seatbelt",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "WinPwn": {
     "name": "WinPwn",
     "url": "https://github.com/S3cur3Th1sSh1t/WinPwn",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "massdns": {
     "name": "massdns",
     "url": "https://github.com/blechschmidt/massdns",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "recon"
   },
   "recon-ng": {
     "name": "recon-ng",
     "url": "https://github.com/lanmaster53/recon-ng",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "osint"
   },
   "PowerShell-Suite": {
     "name": "PowerShell-Suite",
     "url": "https://github.com/FuzzySecurity/PowerShell-Suite",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "MailSniper": {
     "name": "MailSniper",
     "url": "https://github.com/dafthack/MailSniper",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "recon"
   },
   "static-binaries": {
     "name": "static-binaries",
     "url": "https://github.com/andrew-d/static-binaries",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "FOCA": {
     "name": "FOCA",
     "url": "https://github.com/ElevenPaths/FOCA",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "misc"
   },
   "pypykatz": {
     "name": "pypykatz",
     "url": "https://github.com/skelsec/pypykatz",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "PowerUpSQL": {
     "name": "PowerUpSQL",
     "url": "https://github.com/NetSPI/PowerUpSQL",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "Inveigh": {
     "name": "Inveigh",
     "url": "https://github.com/Kevin-Robertson/Inveigh",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "PrintNightmare": {
     "name": "PrintNightmare",
     "url": "https://github.com/cube0x0/CVE-2021-1675",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "exploitation"
   },
   "lsassy": {
     "name": "lsassy",
     "url": "https://github.com/Hackndo/lsassy",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "DidierStevensSuite": {
     "name": "DidierStevensSuite",
     "url": "https://github.com/DidierStevens/DidierStevensSuite",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "malware"
   },
   "PetitPotam": {
     "name": "PetitPotam",
     "url": "https://github.com/topotam/PetitPotam",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "Certipy": {
     "name": "Certipy",
     "url": "https://github.com/ly4k/Certipy",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "Bloodhound.py": {
     "name": "Bloodhound.py",
     "url": "https://github.com/fox-it/BloodHound.py",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "PrintSpoofer": {
     "name": "PrintSpoofer",
     "url": "https://github.com/itm4n/PrintSpoofer",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "exploitation"
   },
   "odat": {
     "name": "odat",
     "url": "https://github.com/quentinhardy/odat",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "exploitation"
   },
   "SprayingToolkit": {
     "name": "SprayingToolkit",
     "url": "https://github.com/byt3bl33d3r/SprayingToolkit",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "recon"
   },
   "KrbRelayUp": {
     "name": "KrbRelayUp",
     "url": "https://github.com/Dec0ne/KrbRelayUp",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "noPac": {
     "name": "noPac",
     "url": "https://github.com/cube0x0/noPac",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "exploitation"
   },
   "PowerLessShell": {
     "name": "PowerLessShell",
     "url": "https://github.com/Mr-Un1k0d3r/PowerLessShell",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "Dumpert": {
     "name": "Dumpert",
     "url": "https://github.com/outflanknl/Dumpert",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "follina.py": {
     "name": "follina.py",
     "url": "https://github.com/chvancooten/follina.py",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "exploitation"
   },
   "Adalanche": {
     "name": "Adalanche",
     "url": "https://github.com/lkarlslund/Adalanche",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "SafetyKatz": {
     "name": "SafetyKatz",
     "url": "https://github.com/GhostPack/SafetyKatz",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "Sharp-Suite": {
     "name": "Sharp-Suite",
     "url": "https://github.com/FuzzySecurity/Sharp-Suite",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "SharPersist": {
     "name": "SharPersist",
     "url": "https://github.com/mandiant/SharPersist",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "persistence"
   },
   "OffensiveVBA": {
     "name": "OffensiveVBA",
     "url": "https://github.com/S3cur3Th1sSh1t/OffensiveVBA",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "exploitation"
   },
   "Certify": {
     "name": "Certify",
     "url": "https://github.com/GhostPack/Certify",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "SharpUp": {
     "name": "SharpUp",
     "url": "https://github.com/GhostPack/SharpUp",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "Powermad": {
     "name": "Powermad",
     "url": "https://github.com/Kevin-Robertson/Powermad",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "sam-the-admin": {
     "name": "sam-the-admin",
     "url": "https://github.com/WazeHell/sam-the-admin",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "exploitation"
   },
   "SharpDPAPI": {
     "name": "SharpDPAPI",
     "url": "https://github.com/GhostPack/SharpDPAPI",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "SocksOverRDP": {
     "name": "SocksOverRDP",
     "url": "https://github.com/nccgroup/SocksOverRDP",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "SharpGPOAbuse": {
     "name": "SharpGPOAbuse",
     "url": "https://github.com/FSecureLABS/SharpGPOAbuse",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "SharpWMI": {
     "name": "SharpWMI",
     "url": "https://github.com/GhostPack/SharpWMI",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "Group3r": {
     "name": "Group3r",
     "url": "https://github.com/Group3r/Group3r",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "monkey365": {
     "name": "monkey365",
     "url": "https://github.com/silverhack/monkey365",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "cloud"
   },
   "SharpWSUS": {
     "name": "SharpWSUS",
     "url": "https://github.com/nettitude/SharpWSUS",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "vortex": {
     "name": "vortex",
     "url": "https://github.com/klezVirus/vortex",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "vpn"
   },
   "SharpLAPS": {
     "name": "SharpLAPS",
     "url": "https://github.com/swisskyrepo/SharpLAPS",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "WinMalDev": {
     "name": "WinMalDev",
     "url": "https://github.com/Kr0ff/WinMalDev",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "malware"
   },
   "pysho": {
     "name": "pysho",
     "url": "https://github.com/Kr0ff/pysho",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "recon"
   },
   "PenDock": {
     "name": "PenDock",
     "url": "https://github.com/Kr0ff/PenDock",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "misc"
   },
   "InternetShell": {
     "name": "InternetShell",
     "url": "https://github.com/Kr0ff/InternetShell",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "malware"
   },
   "DFSCoerce": {
     "name": "DFSCoerce",
     "url": "https://github.com/Wh04m1001/DFSCoerce",
     "location": "/home/$USER/git/",
-    "git": true
+    "git": true,
+    "category": "post-ex"
   },
   "KeyTabExtract": {
      "name": "KeyTabExtract",
      "url": "https://github.com/sosdave/KeyTabExtract",
      "location": "/home/$USER/git/",
-     "git": true
+     "git": true,
+     "category": "post-ex"
   },
   "nanodump": {
-        "name": "nanodump",
-        "url": "https://github.com/fortra/nanodump",
-        "location": "/home/$USER/git/",
-        "git": true
+    "name": "nanodump",
+    "url": "https://github.com/fortra/nanodump",
+    "location": "/home/$USER/git/",
+    "git": true,
+	  "category": "post-ex"
   },
   "Havoc": {
-        "name": "Havoc",
-        "url": "https://github.com/HavocFramework/Havoc.git",
-        "location": "/home/$USER/git/",
-        "git": true
-    }
+    "name": "Havoc",
+    "url": "https://github.com/HavocFramework/Havoc.git",
+    "location": "/home/$USER/git/",
+    "git": true,
+    "category": "c2"
+  }
 }

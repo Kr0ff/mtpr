@@ -2,7 +2,7 @@
 	"impacket": {
 		"name": "impacket",
 		"url": "https://github.com/fortra/impacket",
-		"location": "/home/mark/git/",
+		"location": "/home/$USER/git/",
 		"git": true
 	}
 }

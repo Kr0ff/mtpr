@@ -6,13 +6,14 @@ import sys
 
 
 # Build process of JSON
-def build_package(name, url, location, git=False):
+def build_package(name, url, location, category, git=False):
     
     # Prepare variables
     _pname      = name
     _purl       = url
     _plocation  = location
     _pgit       = git
+    _pcategory  = category
 
 
     # JSON structure 
@@ -21,14 +22,14 @@ def build_package(name, url, location, git=False):
                 "name"      : _pname,
                 "url"       : _purl,
                 "location"  : _plocation,
-                "git"       : _pgit
+                "git"       : _pgit,
+                "category"  : _pcategory
                 }
             }
 
     # Create the JSON object with parsed data
     _json = json.dumps(_json_struct, indent=4)
 
-    
     print(_json)
 
 # Argument parser
@@ -37,7 +38,7 @@ def arg_parser():
     p.add_argument(
             "-n",
             "--name",
-            help="Name of package (ex: impacket)",
+            help="Name of package (e.g impacket)",
             required=True
             )
     
@@ -63,6 +64,13 @@ def arg_parser():
             required=False
             )
 
+    p.add_argument(
+            "-c",
+            "--category",
+            help="Category of tools the repository belongs to (e.g post-ex)",
+            required=True
+            )
+
     args = p.parse_args(args=None if sys.argv[1:] else ["-h"])
 
     #------------------------------
@@ -74,10 +82,9 @@ def arg_parser():
             args.name, 
             args.url, 
             args.location, 
+            args.category,
             args.git
             )
 
-
 if __name__ == "__main__":
     arg_parser()
-

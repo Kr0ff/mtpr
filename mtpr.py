@@ -10,7 +10,7 @@ try:
 except ImportError as e:
     raise Exception(f"[-] Missing required python library - \n {e}")
 
-# __version__ = 0.2
+__version__ = 0.3
 
 # Check if provided argument is a file
 def isfile(json_file):
@@ -71,6 +71,20 @@ def parseJson(json_file):
 
     return _json
 
+# Check package category and clone to specific folder
+def getcategory_repo(_json):
+    
+    _category = ""
+
+    _dump = json.dumps(_json)
+    
+    _json = json.loads(_dump)
+    if not _json["category"]:
+       print("[-] Category field not provided or empty in JSON packages file")
+       sys.exit(1)
+    else:
+        return _json["category"]
+
 # Performs the cloning of repos
 def gitcloner(json_file):
 
@@ -78,12 +92,18 @@ def gitcloner(json_file):
 
     _json = parseJson(json_file)
     _package_ = ""
+    _category = ""
 
     _not_git_package = []
 
     # Loop through all packages in the package.json file
     for repo in _json:
         _package_ = _json[repo]
+
+        _git_check_repo_category = getcategory_repo(_package_)
+        if not _git_check_repo_category:
+            print("[-] No repository category specified")
+            sys.exit(1)
 
         # Check if package is clonable (git valid)
         _git_check = ispackage_git(_package_)
@@ -93,10 +113,11 @@ def gitcloner(json_file):
             _git_repo_name = _package_["name"]
             _git_url = _package_["url"]
             _git_clone_location = _package_["location"]
+            _git_repo_category = _package_["category"]
 
             # Do cloning of repo
             try:
-                _clone = git.Repo.clone_from(_git_url, _git_clone_location + _git_repo_name)
+                _clone = git.Repo.clone_from(_git_url, f"{_git_clone_location}{_git_repo_category}/{_git_repo_name}")
                 if _clone:
                     print(f"\t+ [ {_git_repo_name} ] - Clone successful")
             except Exception as e:
@@ -114,7 +135,7 @@ def gitcloner(json_file):
     else:
         print("[!] The following package(s) were excluded:")
         for p in _not_git_package:
-            print(f"\t- [ {p} ]")
+            print(f"\t- Excluded: [ {p} ]")
 
 if __name__ == "__main__":
 
