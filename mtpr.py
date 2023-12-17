@@ -7,10 +7,10 @@ import pathlib
 
 try:
     import git # GitPython
+    import argparse
+    
 except ImportError as e:
     raise Exception(f"[-] Missing required python library - \n {e}")
-
-__version__ = 0.3
 
 # Check if provided argument is a file
 def isfile(json_file):
@@ -96,6 +96,7 @@ def gitcloner(json_file):
     _package_ = ""
 
     _not_git_package = []
+    _unsuccessfully_cloned = []
 
     # Loop through all packages in the package.json file
     for repo in _json:
@@ -115,40 +116,74 @@ def gitcloner(json_file):
             _git_url = _package_["url"]
             _git_clone_location = _package_["location"]
             _git_repo_category = _package_["category"]
+            
+            _cloned_repo_location = f"{_git_clone_location}{_git_repo_category}/{_git_repo_name}"
 
             # Do cloning of repo
             try:
-                _clone = git.Repo.clone_from(_git_url, f"{_git_clone_location}{_git_repo_category}/{_git_repo_name}")
-                print(_clone)
-                input("PAUSE")
+                print(f"\t+ [ {_git_repo_name} ]", end="", flush=True)
+                _clone = git.Repo.clone_from(_git_url, _cloned_repo_location)
                 if _clone:
-                    print(f"\t+ [ {_git_repo_name} ] - Clone successful")
-            except Exception as e:
-                print("- Cloning failed")
-                print(e)
+                    print(" -> Cloned !")
+             
+            # Cancel if ctrl+c detected       
+            except KeyboardInterrupt as e:
+                print("[-] Interrupted")
+                sys.exit(0)
+            
+            # If successfully cloned, directory should exist
+            if pathlib.Path(_cloned_repo_location).exists() == False:
+                _unsuccessfully_cloned.append(_package_['name'])
+                print(" -> Failed !")
 
         else:
             # Append package to the exclusion list
             # if package is not git clonable
             _not_git_package.append(_package_['name'])
+    
+    # Append package that was not successfully cloned to the list    
+    if len(_unsuccessfully_cloned) == 0:
+        print(f"[+] All repositories cloned")
+    else:
+        print(f"[!] Repositories that failed to be cloned:")
+        for p in _unsuccessfully_cloned:
+            print(f"\t- Failed: [ {p} ]")
 
     # Check if any non-git packages were found
     if len(_not_git_package) == 0:
-        print("[-] No non-git package(s) found")
+        print("[*] No non-git package(s) found")
     else:
         print("[!] The following package(s) were excluded:")
         for p in _not_git_package:
             print(f"\t- Excluded: [ {p} ]")
 
+def arg_parser():
+    
+    _version_ = "0.3.1"
+    
+    p = argparse.ArgumentParser(prog="MTPR", description="MTPR - Mirror This Pentest Repo package cloner", )
+    p.add_argument(
+        "-f",
+        "--file",
+        help="Location of file containing repositories (e.g packages.json)",
+        required=False   
+        )
+    p.add_argument(
+        "-v",
+        "--version",
+        help="Version of the script",
+        action="store_true",
+        required=False
+    )
+
+    args = p.parse_args()
+    
+    if args.version:
+        print(f"[*] Script is version  ({_version_})")
+        sys.exit(0)
+    
+    # Begin
+    gitcloner(args.file)
+    
 if __name__ == "__main__":
-
-    _helpmsg = "[*] Usage: mtpr.py </path/to/package.json>"
-
-    if len(sys.argv) < 2:
-        print(_helpmsg)
-        sys.exit(1)
-
-    file = sys.argv[1]
-
-    # BEGIN
-    gitcloner(file)
+    arg_parser()
