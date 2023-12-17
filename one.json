@@ -3,6 +3,7 @@
 		"name": "impacket",
 		"url": "https://github.com/fortra/impacket",
 		"location": "/home/$USER/git/",
-		"git": true
+		"git": true,
+		"category": "post-ex"
 	}
 }
