@@ -21,7 +21,8 @@ The format of a JSON file is:
 		"name": "impacket",                             # Repository name
 		"url": "https://github.com/fortra/impacket",    # URL of repository
 		"location": "/home/$USER/git/",                 # Location for repository to be cloned to 
-		"git": true                                     # Is package from GitHub or GitLab
+		"git": true,                                    # Is package from GitHub or GitLab
+		"category": "post-ex"				# Category for the repository
 	}
 }
 
@@ -30,13 +31,14 @@ The format of a JSON file is:
 The above JSON format can be created automatically with the `package-builder.py` file. Just provide the arguments and copy/paste the output to the JSON package file you're building.
 
 ```sh
-./package-builder.py -n impacket -u "https://github.com/fortra/impacket" -l "/home/$USER/git/" -g
+./package-builder.py -n impacket -u "https://github.com/fortra/impacket" -l "/home/$USER/git/" -g -c "post-ex"
 {
     "impacket": {
         "name": "impacket",
         "url": "https://github.com/fortra/impacket",
         "location": "/home/$USER/git",
-        "git": true
+        "git": true,
+	"category": "post-ex"
     }
 }
 ```
