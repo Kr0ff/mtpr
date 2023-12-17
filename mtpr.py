@@ -83,7 +83,9 @@ def getcategory_repo(_json):
        print("[-] Category field not provided or empty in JSON packages file")
        sys.exit(1)
     else:
-        return _json["category"]
+        _category = _json["category"]
+    
+    return _category
 
 # Performs the cloning of repos
 def gitcloner(json_file):
@@ -92,7 +94,6 @@ def gitcloner(json_file):
 
     _json = parseJson(json_file)
     _package_ = ""
-    _category = ""
 
     _not_git_package = []
 
@@ -118,6 +119,8 @@ def gitcloner(json_file):
             # Do cloning of repo
             try:
                 _clone = git.Repo.clone_from(_git_url, f"{_git_clone_location}{_git_repo_category}/{_git_repo_name}")
+                print(_clone)
+                input("PAUSE")
                 if _clone:
                     print(f"\t+ [ {_git_repo_name} ] - Clone successful")
             except Exception as e:
