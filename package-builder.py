@@ -64,10 +64,28 @@ def arg_parser():
             required=False
             )
 
-    p.add_argument(
+   p.add_argument(
             "-c",
             "--category",
             help="Category of tools the repository belongs to (e.g post-ex)",
+            choices=[
+                'c2', 
+                'cloud', 
+                'code-audit', 
+                'cracking', 
+                'exploitation', 
+                'malware', 
+                'misc', 
+                'osint', 
+                'persistence', 
+                'phishing', 
+                'post-ex', 
+                'privesc', 
+                'recon', 
+                'vpn', 
+                'web'
+                ],
+            
             required=True
             )
 
