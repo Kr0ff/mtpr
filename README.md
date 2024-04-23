@@ -43,3 +43,8 @@ The above JSON format can be created automatically with the `package-builder.py`
 }
 ```
 > NOTE: An ending / is required for the folder where the packages will be cloned, otherwise and error will be thrown and repository won't be cloned.
+
+If you want to use the same location for the cloned repositories you could use the following `sed` command to quickly update the user to the one on your system:
+```sh
+sed -i 's/$USER/<your username>/g' packages.json
+```
