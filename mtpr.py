@@ -80,8 +80,8 @@ def getcategory_repo(_json):
     
     _json = json.loads(_dump)
     if not _json["category"]:
-       print("[-] Category field not provided or empty in JSON packages file")
-       sys.exit(1)
+        print("[-] Category field not provided or empty in JSON packages file")
+        sys.exit(1)
     else:
         _category = _json["category"]
     
@@ -125,7 +125,7 @@ def gitcloner(json_file):
                 _clone = git.Repo.clone_from(_git_url, _cloned_repo_location)
                 if _clone:
                     print(" -> Cloned !")
-             
+
             # Cancel if ctrl+c detected       
             except KeyboardInterrupt as e:
                 print("[-] Interrupted")
@@ -176,7 +176,7 @@ def arg_parser():
         required=False
     )
 
-    args = p.parse_args()
+    args = p.parse_args(args=None if sys.argv[1:] else ["-h"])
     
     if args.version:
         print(f"[*] Script is version  ({_version_})")
