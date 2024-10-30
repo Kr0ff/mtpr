@@ -607,5 +607,97 @@
 		"location": "/home/$USER/git/",
 		"git": true,
 		"category": "recon"
-	}
+	},
+	"GraphRunner": {
+        	"name": "GraphRunner",
+        	"url": "https://github.com/dafthack/GraphRunner",
+        	"location": "/home/$USER/git/",
+        	"git": true,
+        	"category": "cloud"
+    	},
+	"cypherhound": {
+        	"name": "cypherhound",
+        	"url": "https://github.com/fin3ss3g0d/cypherhound",
+        	"location": "/home/$USER/git/",
+        	"git": true,
+        	"category": "misc"
+    	},
+	"pywhisker": {
+        	"name": "pywhisker",
+        	"url": "https://github.com/ShutdownRepo/pywhisker",
+        	"location": "/home/$USER/git/",
+        	"git": true,
+        	"category": "post-ex"
+    	},
+	"DGPOEdit": {
+        	"name": "DGPOEdit",
+        	"url": "https://github.com/CCob/DGPOEdit",
+        	"location": "/home/$USER/git/",
+        	"git": true,
+        	"category": "post-ex"
+    	},
+	"SCCMVNC": {
+        	"name": "SCCMVNC",
+        	"url": "https://github.com/netero1010/SCCMVNC",
+        	"location": "/home/$USER/git/",
+        	"git": true,
+        	"category": "post-ex"
+    	},
+	"EntraEnum": {
+        	"name": "EntraEnum",
+        	"url": "https://github.com/ShkudW/EntraEnum",
+        	"location": "/home/$USER/git/",
+        	"git": true,
+        	"category": "post-ex"
+    	},
+	"azhunt": {
+        	"name": "azhunt",
+        	"url": "https://github.com/haxxm0nkey/azhunt",
+        	"location": "/home/$USER/git/",
+        	"git": true,
+        	"category": "cloud"
+    	},
+	"autodiscover_enum": {
+        	"name": "autodiscover_enum",
+        	"url": "https://github.com/nyxgeek/autodiscover_enum",
+        	"location": "/home/$USER/git/",
+        	"git": true,
+        	"category": "recon"
+    	},
+	"cred1py": {
+        	"name": "cred1py",
+        	"url": "https://github.com/SpecterOps/cred1py",
+        	"location": "/home/$USER/git/",
+        	"git": true,
+        	"category": "post-ex"
+    	},
+	"SeamLessPass": {
+        	"name": "SeamLessPass",
+        	"url": "https://github.com/Malcrove/SeamlessPass",
+        	"location": "/home/$USER/git/",
+        	"git": true,
+        	"category": "cloud"
+    	},
+	"Cable": {
+        	"name": "Cable",
+        	"url": "https://github.com/logangoins/Cable",
+        	"location": "/home/$USER/git/",
+        	"git": true,
+        	"category": "post-ex"
+    	},
+	"remotechrome": {
+        	"name": "remotechrome",
+        	"url": "https://github.com/zimnyaa/remotechrome",
+        	"location": "/home/$USER/git/",
+        	"git": true,
+        	"category": "post-ex"
+    	},
+	"SCCMSecrets": {
+        	"name": "SCCMSecrets",
+        	"url": "https://github.com/synacktiv/SCCMSecrets",
+        	"location": "/home/$USER/git/",
+        	"git": true,
+        	"category": "post-ex"
+    	}
+	
 }
