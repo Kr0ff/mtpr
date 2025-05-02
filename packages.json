@@ -698,6 +698,188 @@
         	"location": "/home/$USER/git/",
         	"git": true,
         	"category": "post-ex"
-    	}
+    	},
+	"goexec": {
+        "name": "goexec",
+        "url": "https://github.com/FalconOpsLLC/goexec",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "post-ex"
+    },
+	"IOXIDResolver-py": {
+        "name": "IOXIDResolver-py",
+        "url": "https://github.com/mubix/IOXIDResolver",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "recon"
+    },
+	"Ghosting-AMSI": {
+        "name": "Ghosting-AMSI",
+        "url": "https://github.com/andreisss/Ghosting-AMSI",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "post-ex"
+    },
+	"pyarmor": {
+        "name": "pyarmor",
+        "url": "https://github.com/dashingsoft/pyarmor",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "malware"
+    },
+	"pssrecon": {
+        "name": "pssrecon",
+        "url": "https://github.com/slygoo/pssrecon",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "post-ex"
+    },
+	"SharpAzToken": {
+        "name": "SharpAzToken",
+        "url": "https://github.com/HackmichNet/SharpAzToken",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "cloud"
+    },
+	"DomainPasswordSpray": {
+        "name": "DomainPasswordSpray",
+        "url": "https://github.com/LazyTitan33/DomainPasswordSpray",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "post-ex"
+    },
+	"sccm-http-looter": {
+        "name": "sccm-http-looter",
+        "url": "https://github.com/badsectorlabs/sccm-http-looter",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "post-ex"
+    },
+	"smbscan": {
+        "name": "smbscan",
+        "url": "https://github.com/jeffhacks/smbscan",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "post-ex"
+    },
+	"LNKUp": {
+        "name": "LNKUp",
+        "url": "https://github.com/Plazmaz/LNKUp",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "malware"
+    },
+	"shellcode_entropy_less": {
+        "name": "shellcode_entropy_less",
+        "url": "https://github.com/b4nbird/shellcode_entropy_less",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "malware"
+    },
+	"GPOHound": {
+        "name": "GPOHound",
+        "url": "https://github.com/cogiceo/GPOHound",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "post-ex"
+    },
+	"ADeleginator": {
+        "name": "ADeleginator",
+        "url": "https://github.com/techspence/ADeleginator",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "post-ex"
+    },
+	"bincrypter": {
+        "name": "bincrypter",
+        "url": "https://github.com/hackerschoice/bincrypter",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "malware"
+    },
+	"WSPCoerce": {
+        "name": "WSPCoerce",
+        "url": "https://github.com/slemire/WSPCoerce",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "post-ex"
+    },
+	"koneko-loader": {
+        "name": "koneko-loader",
+        "url": "https://github.com/Meowmycks/koneko",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "malware"
+    },
+	"BYOVDFinder": {
+        "name": "BYOVDFinder",
+        "url": "https://github.com/ghostbyt3/BYOVDFinder",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "post-ex"
+    },
+	"SharpShooter": {
+        "name": "SharpShooter",
+        "url": "https://github.com/mdsecactivebreach/SharpShooter",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "malware"
+    },
+	"ccmpwn": {
+        "name": "ccmpwn",
+        "url": "https://github.com/mandiant/ccmpwn",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "post-ex"
+    },
+	"ForsHops": {
+        "name": "ForsHops",
+        "url": "https://github.com/susMdT/ForsHops",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "post-ex"
+    },
+	"Inline-EA": {
+        "name": "Inline-EA",
+        "url": "https://github.com/EricEsquivel/Inline-EA",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "c2"
+    },
+	"CheckReachableHosts": {
+        "name": "CheckReachableHosts",
+        "url": "https://github.com/Leo4j/CheckReachableHosts",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "recon"
+    },
+	"TGSThief": {
+        "name": "TGSThief",
+        "url": "https://github.com/MzHmO/TGSThief",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "post-ex"
+    },
+	"KrbRelayEx-RPC": {
+        "name": "KrbRelayEx-RPC",
+        "url": "https://github.com/decoder-it/KrbRelayEx-RPC",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "post-ex"
+    },
+	"SoaPy": {
+        "name": "SoaPy",
+        "url": "https://github.com/xforcered/SoaPy",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "post-ex"
+    },
+	"NomadScanner": {
+        "name": "NomadScanner",
+        "url": "https://github.com/django-88/NomadScanner",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "recon"
+    }
 	
 }
