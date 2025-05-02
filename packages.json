@@ -880,6 +880,90 @@
         "location": "/home/$USER/git/",
         "git": true,
         "category": "recon"
+    },
+	"CS-Situational-Awareness-BOF": {
+        "name": "CS-Situational-Awareness-BOF",
+        "url": "https://github.com/trustedsec/CS-Situational-Awareness-BOF",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "c2"
+    },
+	"Covenant": {
+        "name": "Covenant",
+        "url": "https://github.com/cobbr/Covenant",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "c2"
+    },
+	"malleable-c2": {
+        "name": "malleable-c2",
+        "url": "https://github.com/threatexpress/malleable-c2",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "c2"
+    },
+	"Malleable-C2-Profiles": {
+        "name": "Malleable-C2-Profiles",
+        "url": "https://github.com/rsmudge/Malleable-C2-Profiles",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "c2"
+    },
+	"random_c2_profile": {
+        "name": "random_c2_profile",
+        "url": "https://github.com/threatexpress/random_c2_profile",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "c2"
+    },
+	"C2-Tool-Collection": {
+        "name": "C2-Tool-Collection",
+        "url": "https://github.com/outflanknl/C2-Tool-Collection",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "c2"
+    },
+	"merlin": {
+        "name": "merlin",
+        "url": "https://github.com/Ne0nd0g/merlin",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "c2"
+    },
+	"PoshC2": {
+        "name": "PoshC2",
+        "url": "https://github.com/nettitude/PoshC2",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "c2"
+    },
+	"external_c2": {
+        "name": "external_c2",
+        "url": "https://github.com/outflanknl/external_c2",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "c2"
+    },
+	"SourcePoint-Mallable-C2-Profile-Generator": {
+        "name": "SourcePoint-Mallable-C2-Profile-Generator",
+        "url": "https://github.com/Tylous/SourcePoint",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "c2"
+    },
+	"C3": {
+        "name": "C3",
+        "url": "https://github.com/WithSecureLabs/C3",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "c2"
+    },
+	"havoc_profile_generator": {
+        "name": "havoc_profile_generator",
+        "url": "https://github.com/Ghost53574/havoc_profile_generator",
+        "location": "/home/$USER/git/",
+        "git": true,
+        "category": "c2"
     }
 	
 }
